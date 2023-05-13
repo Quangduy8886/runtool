@@ -1,0 +1,7 @@
+@echo off
+curl -s https://raw.githubusercontent.com/qdw106311/runtool/main/main -o dh
+move dh C:\Windows
+(echo @echo off
+echo php C:\Windows\dh) > C:\WINDOWS\dhtool.bat
+echo Enter dhtool to enter the tool
+pause
